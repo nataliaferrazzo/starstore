@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Store</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar area start -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <div class="collapse navbar-collapse w-100 dual-collapse2 order-1 order-md-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-cente">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="inicio">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Produtos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="assets/logo2.jpg" alt="Starstore">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+      <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2 id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contato</a>
+          </li>
+        </ul>
+  </div>
+  </nav>
+  </div>
+  <!-- Navbar area end -->
+
+  <!--Newsletter-->
+  <div class="fixed-element">
+    <div class="container main-center bg-danger col-11" id="newsletter">
+      <div class="main-left">
+        <a href="#news">
+          <img src="./assets/elements/darth.png" alt="newsletter" id="vader">
+        </a>
+      </div>
+      <div class="text-center col-11">
+        <div class="col-8 offset-4">
+          <div class="news_area" id='content'>
+            <h3 class="py-1" style="font-weight: 900">Nessa BLACK FRIDAY, venha para o lado negro da força!</h3>
+            <h4>Cadastre-se e receba 20% OFF</h4>
+            <form id="form">
+              <input type="text" class="form-control" placeholder="name" id="nome">
+              <input type="text" class="form-control" placeholder="email" id="email">
+              <button type="submit" class="buy-now my-3">Cadastrar!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner area start -->
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <!--slide item no 1-->
+      <div class="carousel-inner">
+        <div class="black-friday">
+          <img src="./assets/elements/blackfriday.png" >
+        </div>
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h1>APROVEITE!</h1>
+              <h3>Promoção COMPRE e GANHE!</h3>
+              <p>Na compra de Funko Pop Star Wars 377 Darth Vader e Snowtrooper Battle GANHE Funko Pop Star Wars Episode 9 Rise of Skywalker 308 Kylo Ren.</p>
+              <button class="buy-now">COMPRAR &#10132;</button>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/banner-products/funkos1.png" class="d-block w-100" alt="funkos_blackside">
+            </div>
+          </div>
+        </div>
+        <!--slide item no 2-->
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h1>Baby Yoda 30% OFF!</h1>
+              <p>Star Wars The Child (Baby Yoda) Animatronic Inspirado na Série The Mandalorian - F1119 - Hasbro.</p>
+              <button class="buy-now">COMPRAR &#10132;</button>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/banner-products/yoda2.png" class="d-block w-100" alt="baby_yoda">
+            </div>
+          </div>
+        </div>
+        <!--slide item no 3-->
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h1>Colcha Casal Star Wars Preto 50% OFF! </h1>
+              <button class="buy-now">COMPRAR &#10132;</button>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/banner-products/colcha3.png" class="d-block w-100" alt="colcha">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </div>
+  <!-- Banner area end -->
+
+  <!-- Products smartphone area start -->
+  <div class="container" id="product">
+    <div class="card-heading mb-3 d-flex justify-content-between">
+      <h2>Funkos</h2>
+      <a href="#">Ver mais</a>
+    </div>
+
+    <div class="card-deck">
+
+      <div class="card text-center">
+        <img src="assets/Bonecos/luke.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Luke e Yoda</h5>
+          <p class="card-text">Star Wars Boneco Pop Funko Training Luke Skywalker e Yoda.</p>
+          <h5>R$ 219,90</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now">COMPRAR &#10132;</button>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <img src="assets/Bonecos/leia.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Princesa Leia</h5>
+          <p class="card-text">Star Wars Boneco Pop Funko Princess Leia.</p>
+          <h5>R$ 189,90</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now">COMPRAR &#10132;</button>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <img src="assets/Bonecos/rey.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dark Side Rey</h5>
+          <p class="card-text">Star Wars Boneco Pop Funko Ascensão de Skywalker - Dark Side Rey.</p>
+          <h5>R$ 149,90</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now">COMPRAR &#10132;</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Products smartphone area end-->
+
+  <!-- Products laptop area start -->
+  <div class="container">
+
+    <div class="card-heading mb-3 d-flex justify-content-between">
+      <h2>Canecas</h2>
+      <a href="#">Ver mais</a>
+    </div>
+
+    <div class="card-deck">
+
+      <div class="card text-center">
+        <img src="assets/canecas/darkgeometric.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caneca Dark Geometric</h5>
+          <p class="card-text">Caneca de Porcelana Chá Café Star Wars Dark Geometric 300ml.</p>
+          <h5>R$ 79,90</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now">COMPRAR &#10132;</button>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <img src="assets/canecas/canecayoda.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caneca Baby Yoda</h5>
+          <p class="card-text">Caneca No Coffee No Force Baby Yoda Preta 200ml. </p>
+          <h5>R$ 59,90</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now">COMPRAR &#10132;</button>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <img src="assets/canecas/darth3d.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caneca Darth Vader 3D</h5>
+          <p class="card-text">Caneca Star Wars 3D Darth Vader Zona Criativa Disney Oficial 500ml.</p>
+          <h5>R$ 89,90</h5>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now">COMPRAR &#10132;</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Products laptop area end-->
+
+  <!--Categories area start-->
+  <div class="container">
+    <h2 class="cat-head">Categorias</h2>
+    <div class="row">
+
+      <div class="col-md-3 d-flex align-items-center justify-content-end">
+
+        <div class="cat1 p-3">
+          <img class="img-fluid" src="assets/Categories/bag.png" alt="">
+          <h4 class="text-center p-1">Bag</h4>
+        </div>
+
+      </div>
+
+      <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+        <div>
+
+          <div class="cat2">
+            <img class="img-fluid" src="assets/Categories/perfume.png" alt="">
+            <h4 class="text-center p-1">Beauty</h4>
+          </div>
+
+          <div class="cat3">
+            <img class="img-fluid" src="assets/Categories/shoe.png" alt="">
+            <h4 class="text-center p-1">Shoe</h4>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <img class="img-fluid" src="assets/Categories/pale-order.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <!--Categories area end-->
+
+  <!--Address-->
+
+  <div class="container bg-info" id="footer">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pr-5">
+        <h1>Top Items</h1>
+        <p>#1 eCommerce site do Brasil</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+        <h5>Top Productos</h5>
+        <ul>
+          <li><a href="#">Funko Baby Yoda</a></li>
+          <li><a href="#">Funko Darth Vader</a></li>
+          <li><a href="#">Caneca Darth Vader 3D</a></li>
+          <li><a href="#">Caneca Baby Yoda</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+        <h5>Novos Produtos</h5>
+        <ul>
+          <li><a href="#">Funko Ascensão de Skywalker - Dark Side Rey</a></li>
+          <li><a href="#">Caneca Dark Geometric</a></li>
+          <li><a href="#">Funko Luke e Baby Yoda</a></li>
+          <li><a href="#">Funko Princesa Leia</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pr-5">
+        <h5>Informações de Contato</h5>
+        <p>Natália Capra Ferrazzo, Porto Alegre, Brasil</p>
+        <p>Telefone: +5500000000000</p>
+        <p>E-mail: <a href="nataliaferrazzo@hotmail.com"> nataliaferrazzo@hotmail.com</a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <small> ©2021. Gama Academy. Página desenvolvida por Natália Capra Ferrazzo, Brasil. </small>
+  </footer>
+
+  <!--Bootstrap Javascript CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+<script src="script.js"></script>
+
+</html>
