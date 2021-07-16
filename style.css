@@ -1,6 +1,6 @@
 body{
     font-family: 'Fjalla One', sans-serif;
-    background-image: url(/starstore/assets/background/stars.png);
+    background-image: url(/assets/background/stars.png);
 }
 
 .container{
@@ -55,7 +55,7 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px red;
-    background-image: url(/starstore/assets/background/starslightspeed.png);
+    background-image: url(/assets/background/starslightspeed.png);
     background-size: 100% auto;
     bottom: 20px;
 }
@@ -165,13 +165,17 @@ body{
     border-radius: 5px;
 }
 
-#footer h5 {
+#footer h5, 
+#footer h1 {
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
     color: #fff;
 }
 
+#about {
+    align-content: center;
+}
 #footer p,
 #footer a {
     font-size: 14px;
@@ -181,4 +185,5 @@ body{
 
 footer {
     text-align: center;
+    margin-bottom: 200px;
 }
