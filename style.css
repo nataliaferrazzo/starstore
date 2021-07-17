@@ -1,6 +1,6 @@
 body{
     font-family: 'Fjalla One', sans-serif;
-    background-image: url("./assets/background/stars.png");
+    background-image: url("../assets/background/stars.png");
 }
 
 .container{
@@ -87,7 +87,7 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px red;
-    background-image: url("./assets/background/starslightspeed.png");
+    background-image: url("../assets/background/starslightspeed.png");
     background-size: 100% auto;
     bottom: 20px;
 }
