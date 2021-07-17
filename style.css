@@ -1,6 +1,6 @@
 body{
     font-family: 'Fjalla One', sans-serif;
-    background-image: url("../starstore/assets/background/stars.png");
+    background-image: url("/assets/background/stars.png");
 }
 
 .container{
@@ -48,6 +48,9 @@ body{
     #contet h4 {
         font-size: 10px;
     }
+    #newsletter {
+        max-width: 60%
+    }
     .form-control {
         max-width: 200px;
     }
@@ -58,7 +61,6 @@ body{
     .form-control{
         max-width: 150px;
     }
-    
 }
 .buy-now{
     background-color: red ;
@@ -85,7 +87,7 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px red;
-    background-image: url("../starstore/assets/background/starslightspeed.png");
+    background-image: url("/assets/background/starslightspeed.png");
     background-size: 100% auto;
     bottom: 20px;
 }
@@ -165,6 +167,7 @@ body{
     border-radius: 5px;
     box-shadow: 5px 5px 10px red;
     z-index: 20;
+    max-width: 90%;
 }
 
 /* Fixed element */
